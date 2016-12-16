@@ -1,0 +1,10 @@
+How to use?
+===========
+
+You can import Pace from ``js.pace`` and ``need`` it where you want
+these resources to be included on a page::
+
+  >>> from js.pace import pace_minimal
+  >>> pace_minimal.need()
+
+.. _`fanstatic`: http://fanstatic.org
